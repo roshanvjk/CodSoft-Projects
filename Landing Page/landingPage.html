@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- FontAwesome for icons -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Restaurant</h1>
+            <p>Experience the best food in town.</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+    
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="../Photos/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Delicious cheese pizza with fresh ingredients.</p>
+                <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="../Photos/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>Juicy beef burger with crispy fries.</p>
+                <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="../Photos/pasta.jpg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Classic Italian pasta with homemade sauce.</p>
+                <span>$14.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="../Photos/salad.jpg" alt="Salad">
+                <h3>Salad</h3>
+                <p>Fresh garden salad with a variety of vegetables.</p>
+                <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="../Photos/steak.jpg" alt="Steak">
+                <h3>Steak</h3>
+                <p>Grilled steak cooked to perfection.</p>
+                <span>$19.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="../Photos/soup.jpg" alt="Soup">
+                <h3>Soup</h3>
+                <p>Warm and comforting soup of the day.</p>
+                <span>$7.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="../Photos/sushi.jpg" alt="Sushi">
+                <h3>Sushi</h3>
+                <p>Fresh and delicious sushi rolls.</p>
+                <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="../Photos/ice.jpg" alt="Ice Cream">
+                <h3>Ice Cream</h3>
+                <p>Rich and creamy ice cream in various flavors.</p>
+                <span>$5.99</span>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-card">
+                <h3>Our Mission</h3>
+                <p>Welcome to our restaurant, where we offer a dining experience like no other. Our passion for food and service is at the heart of everything we do.</p>
+                <p>Founded in 2020, our mission has always been to provide our customers with the finest quality dishes made from the freshest ingredients. Our chefs are committed to crafting a diverse menu that caters to all tastes, whether you're in the mood for a classic favorite or something more adventurous.</p>
+            </div>
+            <div class="about-card">
+                <h3>Our Values</h3>
+                <p>We believe that dining is more than just eating—it's about creating memorable moments. That's why our team is dedicated to providing excellent service in a warm and inviting atmosphere. From the moment you walk through our doors, you'll be treated like family.</p>
+                <p>Our restaurant features a cozy and stylish interior, perfect for both intimate dinners and larger gatherings. We also offer private dining options for special occasions, ensuring a personalized experience for you and your guests.</p>
+            </div>
+        </div>
+        <p>Thank you for choosing our restaurant. We look forward to serving you and making your visit truly special.</p>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>123 Food Street, Tasty City, Yumland</p>
+        <p>Email: info@restaurant.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <section class="contact-me-container">
+        <form class="contact-form" action="#" method="POST">
+            <div class="input-container">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Your Name" name="name" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Your Email" name="email" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-phone"></i>
+                <input type="text" placeholder="Your Phone" name="phone">
+            </div>
+            <div class="input-container">
+                <i class="fas fa-comment"></i>
+                <textarea placeholder="Your Message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
